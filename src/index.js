@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import firebase from './firebase';
-console.log(firebase);
-
+// import App from './components/App';
+import App from 'components/App';
+// import firebase from './firebase';
+// console.log(firebase);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,4 +11,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
