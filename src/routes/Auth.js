@@ -4,8 +4,8 @@ import {
   faGoogle,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { authService, firebaseInstance } from "fbase";
-import AuthForm from "components/AuthForm";
+import { authService, firebaseInstance } from "../fbase";
+import AuthForm from "../components/AuthForm";
 
 const Auth = () => {
     const onSocialClick = async (event) => {

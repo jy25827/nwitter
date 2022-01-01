@@ -183,7 +183,7 @@ form {
   display: flex;
   flex-direction: column;
   color: rgba(0, 0, 0, 0.8);
-  box-shadow: 2px 2px 3px 1px #e7f2ff;
+  box-shadow: 2px 2px 3px 1px #dfe8f3;
 }
 
 .nweet h4 {
@@ -241,7 +241,7 @@ form {
   font-size: 12px;
   text-align: center;
   width: 150px;
-  background: white;
+  background: #eee;
   cursor: pointer;
 }
 
@@ -251,6 +251,7 @@ form {
   max-width: 320px;
   width: 100%;
   padding: 10px;
+  border: solid 1px #aaa;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
@@ -260,6 +261,7 @@ form {
 
 .authSubmit {
   text-align: center;
+  border: none;
   background: #04aaff;
   color: white;
   margin-top: 10;

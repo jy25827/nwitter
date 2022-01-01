@@ -1,4 +1,4 @@
-import { authService, dbService } from "fbase";
+import { authService, dbService } from "../fbase";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -38,6 +38,7 @@ const Profile = ({ userObj, refreshUser }) => {
           await userObj.updateProfile({ displayName: newDisplayName });
           refreshUser();
         }
+        navigate("/");
       };
     
       return (

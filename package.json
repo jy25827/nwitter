@@ -1,8 +1,8 @@
 {
-  "homepage": "https://jy25827.github.io/nwitter",
+  "homepage": "https://jy25827.github.io/nwitter/",
   "name": "nwitter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -17,7 +17,7 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.1.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "uuid": "^8.3.2",
     "uuidv4": "^6.2.12",
