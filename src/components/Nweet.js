@@ -41,11 +41,11 @@ const Nweet = ({ nweetObj, isOwner }) => {
               onChange={onChange}
               value={newNweet}
               required
-              placeholder="Edit your nweet"
+              placeholder="Edit your Tweet"
               autoFocus
               className="formInput"
             />
-            <input type="submit" value="Update Nweet" className="formBtn" />
+            <input type="submit" value="Update Tweet" className="formBtn" />
           </form>
           <button onClick={toggleEditing} className="formBtn cancelBtn">
             Cancel
@@ -55,7 +55,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
         <>
           <h4>{nweetObj.text}</h4>
           {nweetObj.attachmentUrl && (
-            <img src={nweetObj.attachmentUrl} width="50px" height="50px" />
+            <img src={nweetObj.attachmentUrl} alt="" width="50px" height="50px" />
           )}
           {isOwner && (
             <div className="nweet__actions">

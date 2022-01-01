@@ -21,16 +21,15 @@ const AuthForm = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     try {
-      let data;
       if (newAccount) {
         // create newAccount
-        data = await authService.createUserWithEmailAndPassword(
+        await authService.createUserWithEmailAndPassword(
           email,
           password
         );
       } else {
         // log in
-        data = await authService.signInWithEmailAndPassword(email, password);
+        await authService.signInWithEmailAndPassword(email, password);
       }
     } catch (error) {
       setError(error.message);

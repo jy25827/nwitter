@@ -29,7 +29,7 @@ function App() {
       updateProfile: (args) => user.updateProfile(args),
     });
   };
-
+  
   return (
     <>
       {init ? (
