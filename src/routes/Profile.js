@@ -10,7 +10,7 @@ const Profile = ({ userObj, refreshUser }) => {
         authService.signOut();
         navigate("/");
     };
-
+    
     /* const getMyNweets = async () => {
         const nweets = await dbService
             .collection("nweets")
