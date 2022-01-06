@@ -2,8 +2,6 @@
 
 Twitter (mini) clone with React and Firebase
 
-CSR (Client Side Rendering) Pratice
-
 ## 개발 환경
 
 - windows 10
