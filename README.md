@@ -1,6 +1,6 @@
 # Nwitter
 
-Twitter (mini)clone with React and Firebase
+Twitter (mini) clone with React and Firebase
 
 ## 개발 환경
 
