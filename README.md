@@ -2,6 +2,8 @@
 
 Twitter (mini) clone with React and Firebase
 
+CSR (Client Side Rendering) Pratice
+
 ## 개발 환경
 
 - windows 10
@@ -16,3 +18,9 @@ Twitter (mini) clone with React and Firebase
 3. firebase Database를 이용한 글 작성, 수정, 삭제
 4. firebase Storage를 이용한 이미지 파일 업로드
 5. 프로필 업데이트
+
+## 배포
+
+- GitHub Pages
+
+https://jy25827.github.io/nwitter/
